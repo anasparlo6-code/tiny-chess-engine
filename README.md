@@ -1,8 +1,10 @@
-# tiny-chess-01 starter
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/anasparlo6-code/tiny-chess-engine/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard)
+[![reward](https://make.fun/badge/tiny-chess-01/anasparlo6-code/tiny-chess-engine/reward.svg)](https://make.fun/bounty/tiny-chess-01)
 
-A working entry to fork: `main.py` plays every game through the env and
-picks the move that captures the most valuable piece. It is a template,
-not a contender. Replace its one-line choice with a real search.
+# tiny-chess-01 — v8b engine
+
+A 4KB chess engine for the [tiny-chess-01 bounty](https://make.fun/bounty/tiny-chess-01): alpha-beta + PVS + LMR + null-move + transposition table + tapered eval + aspiration windows + a full scenario book. `main.py` (4,094 bytes) plays every game through the env.
 
 ## The size rule
 
